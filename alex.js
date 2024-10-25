@@ -1,4 +1,7 @@
-const inquirer = require('inquirer')
+
+
+
+const inquirer = require(
 
 inquirer
   .prompt([
@@ -47,4 +50,4 @@ inquirer
   ]).then(answers => {
     console.log(`Хорошая работа, ${answers.name}!`);
   })
-
+)
