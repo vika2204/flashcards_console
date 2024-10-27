@@ -2,7 +2,7 @@ class Model {
   static questionsVika = [
     {
       type: 'list',
-      name: 'q2',
+      name: 'q1',
       message: 'Как зовут главного пупса в мульте Ох уж эти детки?',
       choices: [
         { name: 'Томми', value: 1 },
@@ -26,7 +26,7 @@ class Model {
     },
     {
         type: 'list',
-        name: 'q2',
+        name: 'q3',
         message: 'Какое "мародёрское" имя было у Сириуса Блэка?',
         choices: [
           { name: 'Лунатик', value: 0 },
@@ -38,7 +38,7 @@ class Model {
       },
       {
         type: 'list',
-        name: 'q2',
+        name: 'q4',
         message: 'Чем пропитывается дингльбоб при изготовлении плюмбуса в Рике и Морти?',
         choices: [
           { name: 'Шлиим', value: 1 },
@@ -50,7 +50,7 @@ class Model {
       },
       {
         type: 'list',
-        name: 'q2',
+        name: 'q5',
         message: 'Любимый сын Денетора во Властелине колец??',
         choices: [
           { name: 'Фарамир', value: 0 },
